@@ -1,0 +1,276 @@
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+.pic-tit {
+	width: inherit;
+	background: no-repeat center/cover url("../picture/landroverdealers.jpg");
+	height: 480px;
+	
+}
+
+.img-fi {
+	width: 100%;
+}
+
+.body-content {
+	width: 100%;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+body {
+	background-color: #f8f9f9!important;
+	margin: 0px;
+	font-family: Landrover,Arial,Verdana,Helvetica,sans-serif;
+	font-size: 16px;
+}
+
+.titte-strong {
+	font-size: 2em;
+	text-align: center;
+	padding: 1em 0px;
+	clear: both;
+	text-transform: uppercase;
+}
+
+.titte-strong div{
+	text-align: center;
+	font-size: 1rem;
+}
+
+.title-small-strong {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	margin-bottom: 1%;
+	color: #0c121c;
+}
+
+.introduction-left {
+	width: 40%;
+	float: left;
+}
+
+.content-small {
+	font-size: .9rem;
+}
+
+.introduction-right {
+	float: right;
+	width: 60%;
+}
+
+.picture {
+	width: 100%;
+}
+
+.clear-both {
+	clear: both;
+	padding-top: 2rem;
+}
+
+
+
+.ctn-tng {
+	width: 50%;
+	float: left;
+	padding: 1%;
+}
+
+.ctn-tng div img{
+	width: 100%;
+}
+
+.ctn-tng div:last-child{
+	font-size: .9rem;
+}
+
+.content-child {
+	width: 33.3%;
+	float: left;
+	padding: 1.5% 2%;
+	color: #3e3e4c;
+}
+
+.width {
+	width: 100%;
+}
+
+
+
+.ctn-small {
+	font-size: .9rem;
+}
+
+.pa-item-order {
+	right: -19%;
+	top: 20%;
+	position: absolute;
+	transition: .4s ease-in-out;
+}
+
+.btn-more:hover .pa-item-order {
+	right: 10%;
+}
+
+.select-color {
+	width: 100%;
+	padding-bottom: 3rem;
+	height: 545px;
+	background: url(../picture/color-bg-2.jpg) center center no-repeat;
+	position: relative;
+}
+
+.color-select-bg {
+	position: absolute;
+	z-index: -1;
+}
+
+.color-select-items {
+	width: 100%;
+	position: relative;
+}
+
+.color-select-item {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	opacity: 0;
+	transition: all 1s;
+}
+
+.color-select-item img {
+	padding-top: 10%;
+	width: 60%
+}
+
+.color-click {
+	display: flex;
+	padding-bottom: 0px;
+	position: absolute;
+	bottom: 8%;
+    left: 38%;
+}
+
+.select-color .color-click div {
+	margin: 0px 4%;
+}
+
+.select-color .color-click div img {
+	transform: skewX(-20deg);
+	transition: all .5s;
+}
+
+.select-color .color-click div img:hover {
+	-ms-transform: scaleY(1.3) skewX(-24deg);
+	-webkit-transform: scaleY(1.3) skewX(-24deg);
+	transform: scaleY(1.3) skewX(-24deg);
+	-webkit-box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.color-select-item:last-child {
+	opacity: 1;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.specDetails {
+	width: 100%;
+	background-color: white;
+	font-size: 14px;
+	color: #4a4f54;
+	margin: 4% 0px;
+	border: 1px solid #d2d2d2;
+}
+
+.Heading {
+	width: 100%;
+	background-color: #4a4f54;
+	position: relative;
+	display: block;
+	color: #e4e8e8;
+	padding: 1% 2%;
+	cursor: pointer;
+}
+
+.Heading:hover {
+	text-decoration: none;
+	color: #e4e8e8;
+}
+
+.secondaryHeading {
+	padding: 2.5% 0%;
+	position: relative;
+	width: 100%;
+	display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: black;
+}
+
+.performance {
+}
+
+.GridListWrapper table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.GridListWrapper table tbody {
+	border: solid 1px #a4a7a9;
+	position: relative;
+	width: 100%;
+	background-color: #e4e8e8;
+}
+
+.GridListWrapper {
+	padding: 0px 2%;
+}
+
+.GridListWrapper table tbody tr {
+	border-bottom: solid 1px #a4a7a9;
+	width: 100%;
+	position: inherit;
+}
+
+.GridListWrapper table tbody tr th {
+	width: 60%
+}
+
+.GridListWrapper table tbody tr td {
+	width: 30%;
+	background-color: white;
+}
+
+.GridListWrapper table tbody tr th, .GridListWrapper table tbody tr td {
+	padding: 1% 2%;
+}
+
+.specDetails ul {
+	padding: 0px
+}
+
+.buy {
+	
+}
+
+.IgniteBarV1 {
+	color: white;
+	position: fixed;
+	bottom: 24%;
+    right: 0px;
+	background-color: black;
+}
+
+
+
+.IgniteBarV1 div {
+	padding: 0px;
+}
+
+.fa-2xx {
+	font-size: 0px;
+}

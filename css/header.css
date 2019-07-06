@@ -1,0 +1,95 @@
+/* CSS Document */
+
+.styleHeader {
+	height: 10%;
+}
+
+.logo {
+	width: 80%;
+}
+
+.nav-item-hover:hover {
+	color: #edff00 !important;
+	border-bottom: solid 1px #fff600;
+}
+
+.nav-item-hover {
+	color: #ffffff;
+	transition: all .3s ease;
+	box-sizing: border-box;
+	border-bottom: solid 1px #FFFFFF;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+}
+
+.nav-content {
+	height: 400%;
+	width:100%;
+	clear: both;
+	display: block;
+	background-color:#040c15ba;
+	position: absolute;
+	top: -400%;
+	transition-duration: 0.5s;
+	z-index: -1;
+	color: #FFF600;
+	cursor: default;
+	border-top: 1px white solid;
+}
+
+.products {
+	display: none;
+}
+
+.nav-align {
+	margin-left: 3%;
+}
+
+.news {
+	display: none;
+}
+
+.contact-us {
+	display: none;
+}
+
+.home-page {
+	display: none;
+}
+
+.about-us {
+	display: none;
+}
+
+.nav-content-left div ul li{
+	list-style: none;
+	transition: all .5s;
+	border-bottom: solid 1px #ffffff59;
+	margin-left: 5%;
+}
+
+.nav-content-left div ul li a {
+	color: #b5b5b5;
+	text-decoration: none;
+	padding: .6rem 1rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.nav-content-left div ul li a:hover{
+	color: white;
+	padding-left: 1.2rem;
+}
+
+.nav-content-left div ul li:hover {
+	border-bottom: solid 1px white;
+}
+.nav-content-left {
+	width: 40%;
+	height: 100%;
+}
+
+.nav-logo {
+	width: 15%;
+	min-width: 120px;
+}

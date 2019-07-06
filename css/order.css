@@ -1,0 +1,75 @@
+/* CSS Document */
+
+
+.img-info {
+	width: 100%;
+}
+
+.img-info img {
+	width: 100%;
+}
+
+.text-up {
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+}
+
+.rows {
+	margin: 0px!important;
+	padding: 3% 3%;
+	background-color: #efa0a0;
+}
+
+.input-info div {
+	padding: 1% 2%;
+}
+
+.input-name {
+	width: 35%;
+}
+
+.input-address {
+	width: 70%
+}
+
+.input-email {
+	width: 53%;
+}
+
+.input-info div input {
+	padding: .5% 0%;
+}
+
+.btn-submit {
+	display: flex;
+}
+
+
+.btn-submit div {
+	padding: 0px 2%;
+	
+}
+.car-info {
+	width: 100%;
+	margin: 0px !important;
+}
+
+.img-selected {
+	width: 100%;
+}
+
+.car-selected {
+	width: 100%;
+	position: relative;
+	padding: 2% 0%;
+}
+
+.padding {
+	padding: 4%;
+}
+
+.border-r {
+	border-right: solid 1px #717171;
+}

@@ -1,0 +1,65 @@
+
+@font-face{
+	font-family: Landrover;
+	src: url(../../font/landrover-webfont-bold.woff);
+	font-weight: bold;
+}
+
+@font-face{
+	font-family: Landrover;
+	src: url(../../font/landrover-webfont-light.woff);
+}
+
+.da-thumbs {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	padding: 0;
+}
+.da-thumbs li {
+	margin: 5px .5%;
+	padding: 8px;
+	position: relative;
+	box-shadow: 0 1px 5px 1px #00000047;
+	width: 24%;
+}
+.da-thumbs li a,
+.da-thumbs li a img {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+.da-thumbs li a {
+	overflow: hidden;
+}
+.da-thumbs li a div {
+	position: absolute;
+	background: #333;
+	background: rgba(75,75,75,0.7);
+	width: 100%;
+	height: 100%;
+}
+.da-thumbs li a div span {
+	display: block;
+	padding: 10px 0;
+	margin: 40px 20px 20px 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: rgba(255,255,255,0.9);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+}
+.border {
+	border: solid 1px red;
+}
+
+.text-center {
+	text-align: center;
+	color: #525252;
+}
+
+.pa-4 {
+	padding: 1%;
+}
